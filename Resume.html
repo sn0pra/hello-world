@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> RESUME </title>
+    </head>
+    <style>
+        .top{
+            background-image: url("image.jpg");
+            border: double 2px black ;
+            height: ;
+            text-align: center ;
+            color: beige;
+        }
+        body{
+                background-image:url("images.jpg");
+                background-repeat: no-repeat;
+                background-size: cover;
+                overflow:visible;                         
+        }
+        .bottom{
+            float: left;
+            width: 49% ;
+            height: 100% ;
+        }
+        button{
+            float: left ;
+        }
+        a:hover{
+            color: red;
+        }
+    
+    </style>
+    <body>
+        <div class="top">
+             <h1> RESUME </h1> 
+        </div>
+            <form autocomplete="on">
+            <pre><h3>
+            <div class="bottom">
+                FIRST NAME      <input type="text" autofocus required><br><br>
+                LAST NAME       <input type="text" autofocus required><br><br>
+                COLLEGE         <input type="text" autofocus><br><br>
+                ROLL NO         <input type="text" placeholder="BE18F01F001"autofocus><br><br>
+                GENDER          <input type="radio" name="gender" value="male"> MALE </input>
+                                <input type="radio" name="gender" value="female"> FEMALE </input><br>
+                CONTACT NO      <input type="tel" name="contact number" required> <br><br>
+                E-MAIL          <input type="email" name="mail id" placeholder="abcxyz12@gmail.com" required><br><br>
+                PASSWORD        <input type="password" name="pass" required>
+                (password must contain letters, digits and atleast
+                    one special character )<br><br>
+                YEAR            <select list="YEAR">    
+                                    <option value="YEAR">SELECT</option>
+                                    <option value="FE">FE</option>
+                                    <option value="SE">SE</option>
+                                    <option value="TE">TE</option>
+                                    <option value="BE">BE</option>
+                                    <option value="GRADUATED">GRADUATED</option>
+                                </select><br><br>
+                SKILLS          <input type="checkbox" name="skills" value="JAVA"> JAVA </input>
+                                <input type="checkbox" name="skills" value="C"> C </input>
+                                <input type="checkbox" name="skills" value="C++"> C++ </input>
+                                <input type="checkbox" name="skills" value="PYTHON"> PYTHON </input>
+                                <input type="checkbox" name="skills" value="JAVASCRIPT"> JAVASCRIPT </input>
+                                <input type="checkbox" name="skills" value="OTHER"> OTHER </input><br><br>
+                                <button type="button"><a href="#">Submit</a></button>
+                                <footer><h5>technicalworld@abd.co.in</h5></footer>         
+            </div>
+            <div class="bottom">
+                PHOTO           <input type="file" name="pic" accept="image/*">
+                                <input type="submit"><br><br>            
+                CAREER WISHLIST 
+                                <textarea rows="15" columns="50"></textarea><br><br>
+            </div>                                     
+            </h3></pre>
+        </form>
+    </body>
+</html>
